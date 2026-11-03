@@ -4,7 +4,14 @@
 
 ## Contexte
 
-✏️ *En cinq à huit phrases : qui utilise l'outil (son métier, son geste professionnel), son besoin, ce qu'il saisit, ce que le programme lui affiche, ce que l'outil ne fait pas.*
+Cet outil est destiné aux assistants pépinière et aux responsables de pépinière 
+pédagogiques pour le suivi de leurs culture.
+Il repond au besoin fondamental de centraliser un inventaire d'espèces végétales qui se trouve souvent dispersé.
+L'opérateur s'en sert pour retrouver rapidement une espèce, lire son groupe botanique et consulter les quantités disponibles.
+Lors de son utilisation, l'utilisateur saisit au clavier des informations précises comme le nom commun, le groupe botanique, le nombre de plants et la date du relevé.
+Le programme affiche ensuite un menu interactif permettant d'ajouter de nouveaux plants, de lister l'inventaire complet et d'effectuer des recherches ciblées.
+Il permet également de trier les données selon le nombre de plants et de générer une synthèse globale des quantités.
+En revanche, cet outil de gestion en ligne de commande ne gère pas la facturation des clients ni la comptabilité financière.
 
 ## Prérequis et lancement
 

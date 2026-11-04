@@ -29,6 +29,8 @@ async function main() {
     console.log("2. Lister l'inventaire");
     console.log("3. Rechercher (code, nom, groupe)");
     console.log("4. Trier (nombre de plants)");
+    console.log("5. Synthèse des quantités");
+    console.log("0. Quitter");
 
     const choix = await demander("Votre choix : ");
     if (choix === null) break;
@@ -115,6 +117,35 @@ async function main() {
         console.log("Choix inconnu : retour au menu.");
       }
 
+    } else if (choix === '5') {
+      console.log("\n--- Synthèse de l'inventaire ---");
+      console.log(`Nombre d'espèces : ${plants.length}`);
+      console.log(`Stock total : ${totalPlants(plants)} plants`);
+      console.log("Par groupe botanique :");
+
+      const synthese = syntheseParGroupe(plants);
+      for (const [groupe, data] of Object.entries(synthese)) {
+        console.log(` ${groupe} : ${data.especes} espèce(s), ${data.plants} plants`);
+      }
+
+      const plusAbondante = especeLaPlusAbondante(plants);
+      if (plusAbondante) {
+        console.log(`Espèce la plus abondante : ${formaterPlant(plusAbondante)}`);
+      } else {
+        console.log("Espèce la plus abondante : aucune donnée");
+      }
+
+      const faibles = stocksFaibles(plants, SEUIL_STOCK_FAIBLE);
+      console.log(`Stocks faibles (≤ ${SEUIL_STOCK_FAIBLE} plants) : ${faibles.length}`);
+      faibles.forEach(plant => {
+        console.log(` ${formaterPlant(plant)}`);
+      });
+      console.log(`Rappel : le seuil de ${SEUIL_STOCK_FAIBLE} plants est un repère pédagogique de suivi, pas une recommandation de production.`);
+
+    } else if (choix === '0') {
+      continuer = false;
+      console.log("Au revoir !");
+
     } else {
       console.log(`Choix inconnu : « ${choix} ». Veuillez entrer un chiffre valide.`);
     }
@@ -124,3 +155,4 @@ async function main() {
 }
 
 main();
+

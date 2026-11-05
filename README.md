@@ -30,22 +30,24 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ✏️ *Cochez seulement ce qui marche : `- [x]`.*
 
-- [ ] Données lues et enregistrées dans `donnees/plants.json`
-- [ ] Ajouter un plant, saisies invalides refusées sans arrêter le programme
-- [ ] Lister l'inventaire, message si l'inventaire est vide
-- [ ] Rechercher par code ou par nom ; filtrer par groupe botanique
-- [ ] Trier par nombre de plants
-- [ ] Synthèse : stock total, espèces et plants par groupe, espèce la plus abondante, stocks faibles (≤ 10 plants)
+- [X] Données lues et enregistrées dans `donnees/plants.json`
+- [X] Ajouter un plant, saisies invalides refusées sans arrêter le programme
+- [X] Lister l'inventaire, message si l'inventaire est vide
+- [X] Rechercher par code ou par nom ; filtrer par groupe botanique
+- [X] Trier par nombre de plants
+- [X] Synthèse : stock total, espèces et plants par groupe, espèce la plus abondante, stocks faibles (≤ 10 plants)
 - [ ] Bonus : supprimer et modifier un plant (choix 6 et 7)
 - [ ] Bonus : tri décroissant, groupe le plus fourni
 
 ## Données
 
-✏️ *Le fichier, le nombre de lignes, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), l'unité. Rappelez qu'elles sont fictives et que les groupes sont fournis par le coach.*
+id; nomCommun; groupe; nombrePlants; dateReleve
 
 ## Limites
 
-✏️ *Au moins trois. Par exemple : le seuil de 10 plants est un repère de suivi, pas une recommandation de production.*
+Un périmètre limité
+Une interface exclusivement en ligne de commande
+L'absence de vraie base de données
 
 ## Documents
 
@@ -53,4 +55,8 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+Prénom NOM: KOFFI MARC OLIVIER KOUAME, compte GitHub: KOUAMEKOFFIMARCOLIVIER. Entraide : Koffi Marie Carmelle TIEMOKO
+Koutouan Ange Cyriack AKUI
+Abdallah SALIA
+Kaba Konaté
+

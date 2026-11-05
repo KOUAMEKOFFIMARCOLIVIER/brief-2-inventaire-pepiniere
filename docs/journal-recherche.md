@@ -4,7 +4,7 @@
 
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 | --- | --- | --- | --- |
-| Function ouvrirSaisie |AI/chatGPT |il permet d'ouvrir une interface pour permettre à l'utilisateur de saisir des informations | |
+| Function ouvrirSaisie |Google |il permet d'ouvrir une interface pour permettre à l'utilisateur de saisir des informations | |
 | fermerSaisie |Documentation Node.js |Il ferme proprement le flux de lecture pour libérer le terminal et eviter que le programme ne reste bloqué en arrière-plan | |
-| demander |AI/Gemini |permet de poser une question dans la consolen et attendre de manière asynnchrome que l'utilisateur tape sa reponse pour la récupérer sous forme de texte | |
+| demander |Google |permet de poser une question dans la consolen et attendre de manière asynnchrome que l'utilisateur tape sa reponse pour la récupérer sous forme de texte | |
 |Fonctions utilitaires| un camarade| Fonctions d'aide pour nettoyer ou formater les données manipulées| |

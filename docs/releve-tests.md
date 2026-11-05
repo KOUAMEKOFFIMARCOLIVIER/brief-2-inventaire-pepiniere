@@ -16,11 +16,11 @@ N10 : cycas (gymnosperme), 10plants
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
+| Choix inconnu| Choix invalide et de retour au menu| Choix invalide et  | |
+| Ajout de nouveau plants |Ajouter le plant |Ajout de plant avec succès |Axel Junior BENE |
+|Lister l'inventaire |afficher la liste d'inventaire |affichage de la liste d'inventaire avec succès |Axel Junior BENE |
+|Rechercher code |Rechercher des elements|Recherche d'element avec succès | Axel Junior BENE|
+| Trier |Trier (Par nom) |Trie (Par nom) avec succès |Axel Junior BENE |
+| Synthèse des quantités |afficher la synthèse des quantités |affichage de la synthèse des quantités avec succès |Axel Junior BENE |
 
 **Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️
